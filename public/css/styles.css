@@ -1,0 +1,57 @@
+
+body {
+    background-color:#234;
+    font-size: 20px;
+}
+
+button {
+    background-color: #234;
+    border-radius: 0 10px 10px 0;
+    color: #f2f2f2;
+    height: 30px;
+    margin: 0 -4px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+#newMessage {
+    margin: 0;
+    padding: 5px 15px;
+    width: 60%;
+}
+
+#output {
+    list-style-type: none;
+}
+
+#output li {
+    border-bottom: 1px solid #ccc;
+    color: #f2f2f2;
+    margin: 0 0 10px;
+    padding: 0 0 20px;
+    text-transform: capitalize;
+}
+
+#output li a {
+    color: #f2f2f2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#output li:hover {
+    background-color: #666;
+}
+
+#postMessage {
+    display: inline-block;
+    height: 65px;
+    vertical-align: top;
+}
+
+#search {
+    border: 2px solid #333;
+    border-radius: 10px 0 0 10px;
+    height: 30px;
+    margin: 0;
+    padding: 0 15px;
+    width: 60%;
+}
